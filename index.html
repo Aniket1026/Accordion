@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- language for the html -->
+<html lang="en">
+  <head>
+    <!-- UTF-8 is a character encoding , which is a method of converting my
+     typed characters into machine-readable code -->
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- This gives the browser instructions on how to control the page's dimensions and scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- linked the css file with current html -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- imported font style so can be used in styling -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- title tag shows the in between content at the title bar of the web page  -->
+    <title>Accordion FAQ</title>
+  </head>
+
+  <body>
+    <!--everything inside body tag is shown on web page -->
+
+    <!-- This div container is for the whole background -->
+    <div class="whole-background">
+      <!-- This div container is for the whole accordion card -->
+      <div class="card">
+        <!-- This div container is for left part of the accordion card  -->
+        <div class="card-l">
+          <!-- The image used on the left side of accordion card -->
+          <img
+            src="./images/illustration-woman-online-desktop.svg"
+            alt="logo"
+            class="woman"
+          />
+        </div>
+
+        <!-- This div conatainer is used for right side of accordion card -->
+        <div class="card-r">
+          <!-- This div container is used for the content of the right side of accordion card -->
+          <div class="rc">
+            <!-- Used for heading on the right side of the accordion card -->
+            <h1 id="h1">FAQ</h1>
+
+            <!-- This div conatainer is used for 1st element of the acordion -->
+            <div class="container">
+              <!-- This container is used for visible portion of the accordion -->
+              <div class="accordion">
+                How many team members can I invite?
+
+                <!-- image of arrow used in the accordion -->
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow"
+                />
+              </div>
+
+              <!-- This div contains part of the accordion which is going to toggle in the accordion -->
+              <div class="content">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </div>
+              <hr />
+            </div>
+
+            <!-- This div conatainer is used for 2nd element of the accordion -->
+            <div class="container">
+              <!-- This container is used for visible portion of the accordion -->
+              <div class="accordion">
+                What is the maximum file upload size?
+
+                <!-- image of arrow used in the accordion -->
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow"
+                />
+              </div>
+
+              <!-- This div contains part of the accordion which is going to toggle in the accordion -->
+              <div class="content">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </div>
+              <hr />
+            </div>
+
+            <!-- This div conatainer is used for 3rd element of the acordion -->
+            <div class="container">
+              <!-- This container is used for visible portion of the accordion -->
+              <div class="accordion">
+                How do I reset my password?
+
+                <!-- image of arrow used in the accordion -->
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow"
+                />
+              </div>
+
+              <!-- This div contains part of the accordion which is going to toggle in the accordion -->
+              <div class="content">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </div>
+              <hr />
+            </div>
+
+            <!-- This div conatainer is used for 4th element of the acordion -->
+            <div class="container">
+              <!-- This container is used for visible portion of the accordion -->
+              <div class="accordion">
+                Can I cancel my subscription?
+
+                <!-- image of arrow used in the accordion -->
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow"
+                />
+              </div>
+
+              <!-- This div contains part of the accordion which is going to toggle in the accordion -->
+              <div class="content">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </div>
+              <hr />
+            </div>
+
+            <!-- This div conatainer is used for 5th element of the acordion -->
+            <div class="container">
+              <!-- This container is used for visible portion of the accordion -->
+              <div class="accordion">
+                Do you provide additional support?
+
+                <!-- image of arrow used in the accordion -->
+                <img
+                  src="./images/icon-arrow-down.svg"
+                  alt="arrow"
+                  class="arrow"
+                />
+              </div>
+
+              <!-- This div contains part of the accordion which is going to toggle in the accordion -->
+              <div class="content">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </div>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
